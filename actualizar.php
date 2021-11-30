@@ -28,7 +28,7 @@ $row=mysqli_fetch_array($query);
                                 <input type="hidden" name="name" value="<?php echo $row['Nombre']  ?>">
                                 
                                 <input type="text" class="form-control mb-3" name="name" placeholder="Nombre" value="<?php echo $row['Nombre']  ?>">
-                                <input type="text" class="form-control mb-3" name="apellido=" placeholder="Apellido" value="<?php echo $row['Apellido']  ?>">
+                                <input type="text" class="form-control mb-3" name="apellido" placeholder="Apellido" value="<?php echo $row['Apellido']  ?>">
                                 <input type="text" class="form-control mb-3" name="email" placeholder="E-mail" value="<?php echo $row['E-mail']  ?>">
                                 <input type="text" class="form-control mb-3" name="telefono" placeholder="Telefono" value="<?php echo $row['Telefono']  ?>">
                             <input type="submit" class="btn btn-primary btn-block" value="Actualizar">
